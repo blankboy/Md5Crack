@@ -7,9 +7,9 @@
     {
      "matches" : [    
        "http://www.hi-pda.com/*",
-       "http://www.cmd5.com/*"
+       "http://www.md5.cc/*"
       ],    
-     "js": ["js/jquery-1.8.2.js","js/jquery-ui.js","js/contentscript.js","js/jquery-ui.css"],
+     "js": ["js/jquery-1.8.2.js","js/jquery-ui.js","js/jquery.form.js","js/contentscript.js","js/jquery-ui.css"],
       "run_at" : "document_end",
       "all_frames" : false
     }
