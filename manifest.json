@@ -1,0 +1,17 @@
+﻿{
+  "name": "CheckPwd-Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Md5Pwd",
+  "content_scripts":[
+    {
+     "matches" : [    
+       "http://www.hi-pda.com/*",
+       "http://www.cmd5.com/*"
+      ],    
+     "js": ["js/jquery-1.8.2.js","js/jquery-ui.js","js/contentscript.js","js/jquery-ui.css"],
+      "run_at" : "document_end",
+      "all_frames" : false
+    }
+  ]
+}
